@@ -59,7 +59,7 @@
                 </figure>
                 <div class="d-flex justify-content-between align-items-center position-absolute top-90 w-100 px-2 px-md-4 mt-n4">
                   <div>
-                    <img class="wd-70 rounded-circle" src="https://via.placeholder.com/100x100" alt="profile">
+                    <img class="wd-70 rounded-circle" src="{{asset('assets/images/others/face1.jpg')}}" alt="profile">
                     <span class="h4 ms-3 text-dark">Amiah Burton</span>
                   </div>
                   <div class="d-none d-md-block">
@@ -254,47 +254,47 @@
                     <div class="row ms-0 me-0">
                       <a href="javascript:;" class="col-md-4 ps-1 pe-1">
                         <figure class="mb-2">
-                          <img class="img-fluid rounded" src="https://via.placeholder.com/96x96" alt="">
+                          <img class="img-fluid rounded" src="{{asset('assets/images/others/face1.jpg')}}" alt="">
                         </figure>
                       </a>
                       <a href="javascript:;" class="col-md-4 ps-1 pe-1">
                         <figure class="mb-2">
-                          <img class="img-fluid rounded" src="https://via.placeholder.com/96x96" alt="">
+                          <img class="img-fluid rounded" src="{{asset('assets/images/others/face2.jpg')}}" alt="">
                         </figure>
                       </a>
                       <a href="javascript:;" class="col-md-4 ps-1 pe-1">
                         <figure class="mb-2">
-                          <img class="img-fluid rounded" src="https://via.placeholder.com/96x96" alt="">
+                          <img class="img-fluid rounded" src="{{asset('assets/images/others/face3.jpg')}}" alt="">
                         </figure>
                       </a>
                       <a href="javascript:;" class="col-md-4 ps-1 pe-1">
                         <figure class="mb-2">
-                          <img class="img-fluid rounded" src="https://via.placeholder.com/96x96" alt="">
+                          <img class="img-fluid rounded" src="{{asset('assets/images/others/face4.jpg')}}" alt="">
                         </figure>
                       </a>
                       <a href="javascript:;" class="col-md-4 ps-1 pe-1">
                         <figure class="mb-2">
-                          <img class="img-fluid rounded" src="https://via.placeholder.com/96x96" alt="">
+                          <img class="img-fluid rounded" src="{{asset('assets/images/others/face5.jpg')}}" alt="">
                         </figure>
                       </a>
                       <a href="javascript:;" class="col-md-4 ps-1 pe-1">
                         <figure class="mb-2">
-                          <img class="img-fluid rounded" src="https://via.placeholder.com/96x96" alt="">
+                          <img class="img-fluid rounded" src="{{asset('assets/images/others/face6.jpg')}}" alt="">
                         </figure>
                       </a>
                       <a href="javascript:;" class="col-md-4 ps-1 pe-1">
                         <figure class="mb-0">
-                          <img class="img-fluid rounded" src="https://via.placeholder.com/96x96" alt="">
+                          <img class="img-fluid rounded" src="{{asset('assets/images/others/face7.jpg')}}" alt="">
                         </figure>
                       </a>
                       <a href="javascript:;" class="col-md-4 ps-1 pe-1">
                         <figure class="mb-0">
-                          <img class="img-fluid rounded" src="https://via.placeholder.com/96x96" alt="">
+                          <img class="img-fluid rounded" src="{{asset('assets/images/others/face8.jpg')}}" alt="">
                         </figure>
                       </a>
                       <a href="javascript:;" class="col-md-4 ps-1 pe-1">
                         <figure class="mb-0">
-                          <img class="img-fluid rounded" src="https://via.placeholder.com/96x96" alt="">
+                          <img class="img-fluid rounded" src="{{asset('assets/images/others/face9.jpg')}}" alt="">
                         </figure>
                       </a>
                     </div>
@@ -307,7 +307,7 @@
                     <h6 class="card-title">suggestions for you</h6>
                     <div class="d-flex justify-content-between mb-2 pb-2 border-bottom">
                       <div class="d-flex align-items-center hover-pointer">
-                        <img class="img-xs rounded-circle" src="https://via.placeholder.com/37x37" alt="">											
+                        <img class="img-xs rounded-circle" src="{{asset('assets/images/others/face2.jpg')}}" alt="">											
                         <div class="ms-2">
                           <p>Mike Popescu</p>
                           <p class="tx-11 text-muted">12 Mutual Friends</p>
@@ -317,7 +317,7 @@
                     </div>
                     <div class="d-flex justify-content-between mb-2 pb-2 border-bottom">
                       <div class="d-flex align-items-center hover-pointer">
-                        <img class="img-xs rounded-circle" src="https://via.placeholder.com/37x37" alt="">											
+                        <img class="img-xs rounded-circle" src="{{asset('assets/images/others/face3.jpg')}}" alt="">											
                         <div class="ms-2">
                           <p>Mike Popescu</p>
                           <p class="tx-11 text-muted">12 Mutual Friends</p>
@@ -327,7 +327,7 @@
                     </div>
                     <div class="d-flex justify-content-between mb-2 pb-2 border-bottom">
                       <div class="d-flex align-items-center hover-pointer">
-                        <img class="img-xs rounded-circle" src="https://via.placeholder.com/37x37" alt="">											
+                        <img class="img-xs rounded-circle" src="{{asset('assets/images/others/face4.jpg')}}" alt="">											
                         <div class="ms-2">
                           <p>Mike Popescu</p>
                           <p class="tx-11 text-muted">12 Mutual Friends</p>
@@ -337,7 +337,7 @@
                     </div>
                     <div class="d-flex justify-content-between mb-2 pb-2 border-bottom">
                       <div class="d-flex align-items-center hover-pointer">
-                        <img class="img-xs rounded-circle" src="https://via.placeholder.com/37x37" alt="">											
+                        <img class="img-xs rounded-circle" src="{{asset('assets/images/others/face5.jpg')}}" alt="">											
                         <div class="ms-2">
                           <p>Mike Popescu</p>
                           <p class="tx-11 text-muted">12 Mutual Friends</p>
@@ -347,7 +347,7 @@
                     </div>
                     <div class="d-flex justify-content-between mb-2 pb-2 border-bottom">
                       <div class="d-flex align-items-center hover-pointer">
-                        <img class="img-xs rounded-circle" src="https://via.placeholder.com/37x37" alt="">											
+                        <img class="img-xs rounded-circle" src="{{asset('assets/images/others/face6.jpg')}}" alt="">											
                         <div class="ms-2">
                           <p>Mike Popescu</p>
                           <p class="tx-11 text-muted">12 Mutual Friends</p>
@@ -357,7 +357,7 @@
                     </div>
                     <div class="d-flex justify-content-between">
                       <div class="d-flex align-items-center hover-pointer">
-                        <img class="img-xs rounded-circle" src="https://via.placeholder.com/37x37" alt="">											
+                        <img class="img-xs rounded-circle" src="{{asset('assets/images/others/face7.jpg')}}" alt="">											
                         <div class="ms-2">
                           <p>Mike Popescu</p>
                           <p class="tx-11 text-muted">12 Mutual Friends</p>
