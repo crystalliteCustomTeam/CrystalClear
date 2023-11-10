@@ -1,13 +1,4 @@
 <!DOCTYPE html>
-<!--
-Template Name: NobleUI - HTML Bootstrap 5 Admin Dashboard Template
-Author: NobleUI
-Website: https://www.nobleui.com
-Portfolio: https://themeforest.net/user/nobleui/portfolio
-Contact: nobleui123@gmail.com
-Purchase: https://1.envato.market/nobleui_admin
-License: For each use you must have a valid license purchased only from above link in order to legally use the theme for your project.
--->
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -17,7 +8,7 @@ License: For each use you must have a valid license purchased only from above li
 	<meta name="author" content="NobleUI">
 	<meta name="keywords" content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
-	<title>NobleUI - HTML Bootstrap 5 Admin Dashboard Template</title>
+  <title>Crystal Clear Admin Payment System</title>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,7 +55,7 @@ License: For each use you must have a valid license purchased only from above li
             <div class="card">
               <div class="position-relative">
                 <figure class="overflow-hidden mb-0 d-flex justify-content-center">
-                  <img src="https://via.placeholder.com/1560x370"class="rounded-top" alt="profile cover">
+                  <img src="https://www.nobleui.com/laravel/template/demo2/assets/images/others/profile-cover.jpg"class="rounded-top" alt="profile cover">
                 </figure>
                 <div class="d-flex justify-content-between align-items-center position-absolute top-90 w-100 px-2 px-md-4 mt-n4">
                   <div>
@@ -107,7 +98,7 @@ License: For each use you must have a valid license purchased only from above li
         </div>
         <div class="row profile-body">
           <!-- left wrapper start -->
-          <div class="d-none d-md-block col-md-4 col-xl-3 left-wrapper">
+          <div class="d-none d-md-block col-md-4 col-xl-4 left-wrapper">
             <div class="card rounded">
               <div class="card-body">
                 <div class="d-flex align-items-center justify-content-between mb-2">
@@ -156,7 +147,7 @@ License: For each use you must have a valid license purchased only from above li
           </div>
           <!-- left wrapper end -->
           <!-- middle wrapper start -->
-          <div class="col-md-8 col-xl-6 middle-wrapper">
+          <!-- <div class="col-md-8 col-xl-6 middle-wrapper">
             <div class="row">
               <div class="col-md-12 grid-margin">
                 <div class="card rounded">
@@ -251,12 +242,12 @@ License: For each use you must have a valid license purchased only from above li
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- middle wrapper end -->
           <!-- right wrapper start -->
-          <div class="d-none d-xl-block col-xl-3">
+          <div class="d-none d-xl-block col-xl-8">
             <div class="row">
-              <div class="col-md-12 grid-margin">
+              <div class="col-md-6 grid-margin">
                 <div class="card rounded">
                   <div class="card-body">
                     <h6 class="card-title">latest photos</h6>
@@ -310,7 +301,7 @@ License: For each use you must have a valid license purchased only from above li
                   </div>
                 </div>
               </div>
-              <div class="col-md-12 grid-margin">
+              <div class="col-md-6 grid-margin">
                 <div class="card rounded">
                   <div class="card-body">
                     <h6 class="card-title">suggestions for you</h6>

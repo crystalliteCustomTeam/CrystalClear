@@ -43,4 +43,7 @@ class AdminController extends Controller
     function adminAddUser(Request $request){
         return view('demo2.adduser');
     }
+    function adminProfile(Request $request){
+        return view('demo2.profile');
+    }
 }

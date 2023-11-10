@@ -25,11 +25,11 @@ Route::get('/order-complete',[OrderController::class,'orderComplete']);
 Route::get('/admin/login',[AdminController::class,'adminLogin']);
 Route::get('/admin/register',[AdminController::class,'adminRegister']);
 
-
-
+// pages add
 Route::get('/admin/dashboard',[AdminController::class,'adminDashboard']);
 Route::get('/admin/reports',[AdminController::class,'adminReports']);
 Route::get('/admin/request',[AdminController::class,'adminRequest']);
 Route::get('/admin/allUser',[AdminController::class,'adminAllUser']);
 Route::get('/admin/allbrands',[AdminController::class,'adminallbrands']);
 Route::get('/admin/adduser',[AdminController::class,'adminAddUser']);
+Route::get('/admin/profile',[AdminController::class,'adminProfile']);
