@@ -32,12 +32,6 @@
                             <span class="link-title">Reports</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="pages/apps/calendar.html" class="nav-link">
-                            <i class="link-icon" data-feather="calendar"></i>
-                            <span class="link-title">Calendar</span>
-                        </a>
-                    </li>
                     <li class="nav-item nav-category">User</li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{url('/admin/adduser')}}">
@@ -82,20 +76,4 @@
                 </ul>
             </div>
         </nav>
-        <nav class="settings-sidebar">
-            <div class="sidebar-body">
-                <a href="#" class="settings-sidebar-toggler">
-                    <i data-feather="settings"></i>
-                </a>
-                <div class="theme-wrapper">
-                    <h6 class="text-muted mb-2">Light Theme:</h6>
-                    <a class="theme-item" href="../demo1/dashboard.html">
-                        <img src="../assets/images/screenshots/light.jpg" alt="light theme">
-                    </a>
-                    <h6 class="text-muted mb-2">Dark Theme:</h6>
-                    <a class="theme-item active" href="../demo2/dashboard.html">
-                        <img src="../assets/images/screenshots/dark.jpg" alt="light theme">
-                    </a>
-                </div>
-            </div>
-        </nav>
+        

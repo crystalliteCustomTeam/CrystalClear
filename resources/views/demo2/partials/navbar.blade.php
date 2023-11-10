@@ -24,7 +24,7 @@
           <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-es" title="es" id="es"></i> <span class="ms-1"> Spanish </span></a>
         </div>
       </li>
-      <li class="nav-item dropdown">
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="appsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i data-feather="grid"></i>
         </a>
@@ -51,7 +51,7 @@
             <a href="javascript:;">View all</a>
           </div>
         </div>
-      </li>
+      </li> -->
     
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="notificationDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -142,12 +142,6 @@
               <a href="javascript:;" class="text-body ms-0">
                 <i class="me-2 icon-md" data-feather="edit"></i>
                 <span>Edit Profile</span>
-              </a>
-            </li>
-            <li class="dropdown-item py-2">
-              <a href="javascript:;" class="text-body ms-0">
-                <i class="me-2 icon-md" data-feather="repeat"></i>
-                <span>Switch User</span>
               </a>
             </li>
             <li class="dropdown-item py-2">
