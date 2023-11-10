@@ -28,4 +28,19 @@ class AdminController extends Controller
     function adminDashboard(Request $request){
         return view('demo2.dashboard');
     }
+    function adminReports(Request $request){
+        return view('demo2.reports');
+    }
+    function adminRequest(Request $request){
+        return view('demo2.request');
+    }
+    function adminAllUser(Request $request){
+        return view('demo2.allUser');
+    }
+    function adminallBrands(Request $request){
+        return view('demo2.allbrands');
+    }
+    function adminAddUser(Request $request){
+        return view('demo2.adduser');
+    }
 }

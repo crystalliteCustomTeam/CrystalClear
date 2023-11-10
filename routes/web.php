@@ -28,3 +28,8 @@ Route::get('/admin/register',[AdminController::class,'adminRegister']);
 
 
 Route::get('/admin/dashboard',[AdminController::class,'adminDashboard']);
+Route::get('/admin/reports',[AdminController::class,'adminReports']);
+Route::get('/admin/request',[AdminController::class,'adminRequest']);
+Route::get('/admin/allUser',[AdminController::class,'adminAllUser']);
+Route::get('/admin/allbrands',[AdminController::class,'adminallbrands']);
+Route::get('/admin/adduser',[AdminController::class,'adminAddUser']);
