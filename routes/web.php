@@ -15,11 +15,11 @@ use App\Http\Controllers\AdminController;
 |
 */
 
-Route::get('/creative/order/{name}/{email}/{phone}', [OrderController::class,'order']);
+Route::get('/creative/order/{plainID}', [OrderController::class,'order']);
 
 
 Route::post('/order-porcessing',[OrderController::class,'orderProcess']);
-Route::get('/order-complete',[OrderController::class,'orderComplete']);
+Route::get('/order-complete/{OD}',[OrderController::class,'orderComplete']);
 
 
 Route::get('/admin/login',[AdminController::class,'adminLogin']);

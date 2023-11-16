@@ -3,7 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
-
+use App\Http\Controllers\OrderController;
+use App\Http\Middleware\Cors;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::post('/adminloginprocess',[AdminController::class,'adminLoginProcess']);
 
 Route::post('/adminregisterprocess',[AdminController::class,'adminRegistrationProcess']);
+
+Route::post('/order/custom',[OrderController::class,'customOrder']);
+

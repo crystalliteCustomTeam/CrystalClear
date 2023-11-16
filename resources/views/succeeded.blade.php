@@ -31,7 +31,7 @@
         <h6 class="text-center">Payment Successfull</h6>
         <h2 class="text-center" style="    font-size: 40px;
     font-weight: 900;
-    text-transform: uppercase">Thank You For Purchasing Logo Package</h2>
+    text-transform: uppercase">Thank You For Purchasing </h2>
         <h4 class="text-center">Our Sales Agent Will Contact You Shortly</h4>
         <button class="btn btn-danger text-center">Goto Website</button>
         </div>
