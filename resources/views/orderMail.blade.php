@@ -28,10 +28,11 @@
             <p>Business Description :  {{ $data['businessDescription'] }}</p>
             <p>Dislikes :  {{ $data['dislikes'] }}</p>
             <p>Existing Websites :  {{ $data['existingWebsites'] }}</p>
-
-            @foreach($data['images'] as $images)
-                <p>FIles : {{$images}}</p>
-            @endforeach
+            @if(is_array($data['images']))
+                @foreach($data['images'] as $images)
+                    <p>FIles : https://crystalbrand.cryscampus.com/public/{{$images}}</p>
+                @endforeach
+            @endif
            
         
         </div>

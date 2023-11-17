@@ -67,7 +67,10 @@ class OrderController extends Controller
        $PFeatures = $req->input('features');
 
         Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
-        $product = Stripe\product::create([
+        
+        
+        
+        $product = Stripe\Product::create([
             'name' => $req->input('package_name'),
             'images' => ['https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=256&q=75'],
             'description' => "Package Name : " .$PName . "Package Details :". json_encode( $PFeatures) ,
@@ -82,7 +85,7 @@ class OrderController extends Controller
         ]);
 
         $checkout = Stripe\checkout\session::create([
-            'success_url' => 'http://127.0.0.1:8000/order-complete/{CHECKOUT_SESSION_ID}',
+            'success_url' => 'https://crystalbrand.cryscampus.com/order-complete/{CHECKOUT_SESSION_ID}',
             'line_items' => [
                 [
                 'price' => $price->id,
@@ -160,7 +163,7 @@ class OrderController extends Controller
 
     function orderComplete(Request $req,$stripepaymentID){
         Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
-        $confrimation = Stripe\checkout\session::retrieve($stripepaymentID);
+        $confrimation = Stripe\Checkout\Session::retrieve($stripepaymentID);
         $customerEmail = $confrimation['customer_details']->email;
         $customerStripeID = $confrimation->customer;
         $ORDERID = $confrimation['metadata']->ORDID;
