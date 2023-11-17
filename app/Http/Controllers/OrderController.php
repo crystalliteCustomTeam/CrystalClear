@@ -189,7 +189,7 @@ class OrderController extends Controller
             'stripeInvoiceLink' =>  $invoice->hosted_invoice_url,
             'orderStatus'       =>  "Order Proccessing",
             'orderPaymentStatus' => 'Paid'
-            // other data you want to pass to the email view
+            
         ];
 
         
