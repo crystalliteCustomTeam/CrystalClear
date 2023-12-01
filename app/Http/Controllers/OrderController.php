@@ -11,6 +11,12 @@ use Stripe;
 
 class OrderController extends Controller
 {
+    
+    function invoice(Request $req){
+        return view('invoice');
+    }
+    
+    
     function order(Request $req){
         $planIdByClient = $req['plainID'];
         $searchPlan = DB::table('plans')

@@ -16,6 +16,7 @@ use App\Http\Controllers\AdminController;
 */
 
 Route::get('/creative/order/{plainID}', [OrderController::class,'order']);
+Route::get('/invoice',[OrderController::class,'invoice']);
 
 
 Route::post('/order-porcessing',[OrderController::class,'orderProcess']);
